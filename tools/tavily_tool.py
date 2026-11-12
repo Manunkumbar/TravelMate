@@ -8,7 +8,7 @@ client = TavilyClient(
     api_key = os.getenv("TRAVEL_API_KEY")
 )
 
-def travily_search(query):
+def tavily_search(query):
     response = client.search(
         query = query,
         max_results = 5
